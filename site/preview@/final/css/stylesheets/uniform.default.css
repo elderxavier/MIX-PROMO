@@ -1,0 +1,163 @@
+/*
+
+Uniform Theme: Uniform Default
+Version: 1.8
+By: Josh Pyles
+License: MIT License
+---
+For use with the Uniform plugin:
+http://uniformjs.com/
+
+*/
+/* General settings */
+
+.highContrastDetect {
+  background: url("../images/bg-input.png") repeat-x 0 0;
+  width: 0px;
+  height: 0px; }
+
+
+
+
+
+
+/* Radio */
+div.radio {
+    background: transparent;
+    position: relative;
+    float: left; 
+    margin: 0 0 30px 6px!important;
+  }
+  div.radio, div.radio span, div.radio input {
+    width: 15px;
+    height: 15px; }
+  div.radio span {
+    width: 15px!important;
+    height: 15px!important;
+    padding: 0!important;
+    border-radius: 100px;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: center;
+    background: transparent;
+    border:1px solid #2087bc;
+    
+  }
+    div.radio span.checked {
+      background: #2087bc; }
+  div.radio input {
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    border: none;
+    background: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: center;
+  
+  }
+  div.radio.active span {
+    background: #2087bc;}
+    div.radio.active span.checked {
+      background: #2087bc;}
+  div.radio.hover span, div.radio.focus span {
+    background: #2087bc;}
+    div.radio.hover span.checked, div.radio.focus span.checked {
+      }
+  div.radio.hover.active span, div.radio.focus.active span {
+      
+     }
+    div.radio.hover.active span.checked, div.radio.focus.active span.checked {
+        
+      }
+  div.radio.disabled span, div.radio.disabled.active span {
+      
+    }
+    div.radio.disabled span.checked, div.radio.disabled.active span.checked {
+        
+       }
+
+
+
+
+
+
+
+/* checkbox */
+div.checker {
+    background: transparent;
+    position: relative;
+    float: left; 
+    margin: 0 0 30px 6px!important;
+  }
+  div.checker, div.checker span, div.checker input {
+    width: 15px;
+    height: 15px; }
+  div.checker span {
+    width: 15px!important;
+    height: 15px!important;
+    padding: 0!important;
+    border-radius: 100px;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: center;
+    background: transparent;
+    border:1px solid #2087bc;
+    
+  }
+    div.checker span.checked {
+      background: #2087bc; }
+  div.checker input {
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    border: none;
+    background: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    text-align: center;
+  
+  }
+  div.checker.active span {
+    background: #2087bc;}
+    div.checker.active span.checked {
+      background: #2087bc;}
+  div.checker.hover span, div.checker.focus span {
+    }
+    div.checker.hover span.checked, div.checker.focus span.checked {
+      }
+  div.checker.hover.active span, div.checker.focus.active span {
+      
+     }
+    div.checker.hover.active span.checked, div.checker.focus.active span.checked {
+        
+      }
+  div.checker.disabled span, div.checker.disabled.active span {
+      
+    }
+    div.checker.disabled span.checked, div.checker.disabled.active span.checked {
+        
+       }
+
+
+
+
+
+
+
+  
+}
+
+

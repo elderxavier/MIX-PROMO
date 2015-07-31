@@ -1,0 +1,173 @@
+.barra-mais-recentes
+  width: 100%
+  height: 27px
+  background: $azulbb
+  border-radius: 10px
+  float: left
+  padding: 8px 0 0 0
+  margin: 30px 0 0 0
+
+.oferta-do-dia
+  width: 967px
+  height: 64px
+  float: left
+  background: url("../../imagens/bg-ofertas-do-dia.png") no-repeat
+
+.oferta
+  width: 466px
+  height: auto
+  float: left
+  display: block
+  margin: 20px 0 20px 9px
+
+  .box-oferta
+    width: 466px
+    height: 250px
+    float: left
+    display: block
+    border: 1px solid $azulbb
+    border-radius: 10px
+
+    img
+      width: 100%
+      height: auto
+      max-height: 202px
+      border-top-left-radius: 10px
+      border-top-right-radius: 10px
+
+    .dados-oferta
+      width: 466px
+      height: 50px
+      float: left
+      background: $cinza
+      border-bottom-left-radius: 10px
+      border-bottom-right-radius: 10px
+
+      .valor
+        width: auto
+        height: 100%
+        float: left
+        margin: 0 0 0 10px
+        border-right: 1px solid #dedddd
+        padding: 0 15px 0 0
+        .valor-antigo
+          text-decoration: line-through
+          font-size: 17px
+
+      .desconto
+        width: auto
+        height: auto
+        float: left
+        text-align: center
+        padding: 0 15px 0 8px
+        border-right: 1px solid #dedddd
+
+      .comprados
+        width: 155px
+        height: auto
+        float: left
+        text-align: center
+        .carrinho
+          width: 44px
+          height: 44px
+          float: left
+          background: url('../../imagens/carrinho.png') no-repeat
+          background-size: 100%
+          margin: 3px 0 0 10px
+          
+    .desconto-destaque
+      width: 109px
+      height: 69px
+      padding: 40px 0 0 0
+      position: absolute
+      z-index: 1
+      background: #9ff32f
+      border-radius: 100px
+      margin: 25px 0 0 340px
+      text-align: center
+      color: #1679ab
+      font-size: 35px
+      font-family: 'quicksandbold'
+
+
+    .box-efeito
+      width: 466px
+      height: 204px
+      background: rgba(220,242,254,0.0)
+      position: absolute
+      z-index: 9
+      border-top-left-radius: 10px
+      border-top-right-radius: 10px
+      -webkit-transition: 0.4s
+      -moz-transition: 0.4s
+      -o-transition: 0.4s
+      transition: 0.4s
+      text-align: center
+
+      .btn-adquirir-oferta
+        width: auto
+        height: auto
+        float: left
+        padding: 7px 20px 7px 20px
+        background: $verde
+        border: 0
+        border-radius: 20px
+        font-family: arial
+        color: #fff
+        font-size: 20px
+        text-transform: uppercase
+        margin: 80px 0 0 120px
+        cursor: pointer
+        opacity: 0
+        -webkit-transition: 0.4s
+        -moz-transition: 0.4s
+        -o-transition: 0.4s
+        transition: 0.4s
+
+  .box-oferta:hover .box-efeito
+    background: rgba(220,242,254,0.7)
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+  .box-oferta:hover .btn-adquirir-oferta
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+    opacity: 100
+
+.barra-facebook
+  width: 100%
+  height: 53px
+  float: left
+  background: url("../../imagens/barra-facebook.png") no-repeat
+
+.facebook
+  width: 100%
+  height: 181px
+  float: left
+  background: url("../../imagens/facebook.png") no-repeat
+  margin: 30px 0 0 0
+
+.carregar-mais
+  width: 170px
+  display: block
+  margin: 0 auto
+  color: #4c8fb7
+  font-family: "quicksandbold"
+  font-size: 16px
+  -webkit-transition: 0.4s
+  -moz-transition: 0.4s
+  -o-transition: 0.4s
+  transition: 0.4s
+  background: url("../../imagens/icon-carregar-mais.png") no-repeat right
+
+
+.carregar-mais:hover
+  color: #2b526a
+  -webkit-transition: 0.4s
+  -moz-transition: 0.4s
+  -o-transition: 0.4s
+  transition: 0.4s

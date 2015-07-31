@@ -1,0 +1,476 @@
+*
+	outline: none
+
+body
+	margin: 0
+	padding: 0
+	background: #dcf2fe
+
+a
+	text-decoration: none
+
+h1
+	font-family: 'quicksandbold'
+	font-size: 20px
+	text-transform: uppercase
+	color: $azul
+	margin: 0
+	padding: 0 0 0 15px
+	letter-spacing: -1.3px
+
+h2
+	font-family: 'quicksandbold'
+	font-size: 18px
+	color: #6b6b6b
+	margin: 0
+	padding: 5px 0 10px 10px
+	letter-spacing: -1.0px
+	float: left
+	display: block
+
+h3
+	width: 680px
+	height: auto
+	float: left
+	font-family: 'quicksandregular'
+	font-size: 22px
+	color: #1679ab
+	padding: 10px 0 15px 0
+	line-height: 22px 
+
+h5
+	font-family: 'quicksandbold'
+	font-size: 18px
+	color: #a0a0a0
+	margin: 0
+	padding: 5px 0 1px 5px
+	letter-spacing: -1.0px
+	float: left
+
+h6
+	font-family: 'quicksandbold'
+	font-size: 20px
+	color: $azul
+	margin: 0
+	padding: 5px 0 0 5px
+	letter-spacing: -1.0px
+
+.local-anuncio
+	width: 400px
+	height: auto
+	float: left
+	font-family: 'quicksandregular'
+	font-size: 16px
+	color: #9c9c9c
+	padding: 4px 0 0 22px
+	margin-left: 6px
+	line-height: 22px
+	background: url("../../imagens/icon-local.png") top left no-repeat
+
+strong
+	font-weight: bold
+
+.alinhamento
+	width: 100%
+	height: auto
+	float: left
+
+.alinhamento-centro
+	width: 960px
+	height: auto
+	margin: 0 auto
+
+.barra
+	width: 100%
+	height: 27px
+	background: $azulbb
+	border-radius: 10px
+	float: left
+	padding: 8px 0 0 0
+	margin: 20px 0 20px 0
+
+/*---------------------------------------------*/
+/*------------------- TOPO --------------------*/
+/*---------------------------------------------*/
+#topo
+	width: 100%
+	min-width: 980px
+	height: 241px
+	float: left
+	background: url("../../imagens/bg-fundo.jpg") top center no-repeat #dcf2fe
+
+	.topo-conteudo
+		width: 980px
+		height: 241px
+		margin: 0 auto
+
+		.logo
+			width: 153px
+			height: 147px
+			float: left
+			margin: 38px 0 0 88px
+			background: url("../../imagens/logo.png") no-repeat
+
+		.navegacao-topo
+			width: 575px
+			height: 40px
+			float: right
+
+			ul
+				float: left
+
+				li
+					list-style: none
+					float: left
+					font-family: Arial
+					font-size: 15px
+					color: #1679ab
+					margin: 10px 0 0 55px
+					-webkit-transition: 0.2s
+					-moz-transition: 0.2s
+					-o-transition: 0.2s
+					transition: 0.2s
+
+				img
+					float: left
+					margin: -2px 14px 0 -14px
+
+				li:hover
+					color: #aaa9a9
+					-webkit-transition: 0.2s
+					-moz-transition: 0.2s
+					-o-transition: 0.2s
+					transition: 0.2s
+
+				.login
+					height: 40px
+					ul
+						width: 213px - 10 - 10
+						height: 140px - 10 - 10
+						background: #ebebeb
+						position: absolute
+						z-index: 99
+						display: none
+						border-radius: 10px
+						border: 1px solid rgba(140,139,139,0.5)
+						margin: 20px 0 0 -74px
+						padding: 10px
+
+						li
+							list-style: none
+							float: left
+							width: auto
+							margin-left: 0
+
+							.login-campo
+								width: 187px
+								height: 32px
+								float: left
+								border: 1px solid rgba(140,139,139,0.5)
+								border-radius: 8px
+								font-size: 16px
+								padding-left: 10px
+
+							.login-campo:focus
+								border: 1px solid #1679ab
+
+							.login-btn
+								width: 77px
+								height: 32px
+								float: left
+								background: #004f78
+								border-radius: 10px
+								border: 0
+								color: #fff
+								font-size: 16px
+								margin-left: 110px
+								cursor: pointer
+								-webkit-transition: 0.2s
+								-moz-transition: 0.2s
+								-o-transition: 0.2s
+								transition: 0.2s
+
+							.login-btn:hover
+								background: $verde
+								color: $azul
+								-webkit-transition: 0.2s
+								-moz-transition: 0.2s
+								-o-transition: 0.2s
+								transition: 0.2s
+
+
+				.login:hover ul
+					display: block
+
+				.anuncieaqui
+					background: $azul
+					color: #fff
+					padding: 1px 20px 3px 20px
+					border-radius: 6px
+					margin-left: 0
+					-webkit-transition: 0.2s
+					-moz-transition: 0.2s
+					-o-transition: 0.2s
+					transition: 0.2s
+
+				.anuncieaqui:hover
+					color: #9ef62b
+					-webkit-transition: 0.2s
+					-moz-transition: 0.2s
+					-o-transition: 0.2s
+					transition: 0.2s
+
+		.campos-topo
+			width: 590px
+			height: 50px
+			float: left
+			margin: 55px 0 0 80px
+
+			.campo-localidade
+				width: 228px
+				height: 40px
+				float: left
+				background: url("../../imagens/input-local.png") no-repeat
+				border: 0
+				font-size: 16px
+				color: #979797
+				padding: 0 0 0 30px
+				-webkit-appearance: none
+				-moz-appearance: none
+				appearance: none
+				cursor: pointer
+
+			.campo_pesquisa
+				width: 294px
+				height: 40px
+				float: right
+				background: url("../../imagens/input-pesquisar.png") no-repeat
+				border: 0
+				font-size: 16px
+				color: #979797
+				padding: 0 60px 0 20px
+				margin: 35px -10 0 0
+
+			.btnOfertas
+				width: 45px
+				height: 40px
+				float: left
+				-webkit-opacity: 0
+				opacity: 0
+				moz-opacity: 0
+				position: absolute
+				margin: 35px 0 0 550px
+				cursor: pointer
+
+		.filtroOfertas
+			width: auto
+			height: auto
+			float: right
+			margin: 56px 61px 0 0
+			.filtro-estado
+				width: 190px
+				height: 28px
+				float: left
+				background: url("../../imagens/input-filter.png") no-repeat
+				border: 0
+				font-size: 12px
+				padding: 0 0 0 8px
+				color: #979797
+				-webkit-appearance: none
+				-moz-appearance: none
+				appearance: none
+				cursor: pointer
+				margin: -1px 0 0 10px
+
+			.filtro-cidade
+				width: 144px
+				height: 28px
+				float: left
+				background: url("../../imagens/input-cidade.png") no-repeat
+				border: 0
+				font-size: 12px
+				padding: 0 0 0 8px
+				color: #979797
+				-webkit-appearance: none
+				-moz-appearance: none
+				appearance: none
+				cursor: pointer
+				margin: -1px 0 0 10px
+
+
+			.filtro-categoria
+				width: 190px
+				height: 28px
+				float: left
+				background: url("../../imagens/input-filter.png") no-repeat
+				border: 0
+				font-size: 12px
+				padding: 0 0 0 8px
+				color: #979797
+				-webkit-appearance: none
+				-moz-appearance: none
+				appearance: none
+				cursor: pointer
+				margin: -1px 0 0 10px
+
+			.btnFiltroTopo
+				width: 94px
+				height: 22px
+				color: #61a507
+				background: #97ef24
+				text-transform: uppercase
+				font-size: 12px
+				border-radius: 6px
+				border: 0
+				float: left
+				margin: 2px 0 0 10px
+				cursor: pointer
+
+.conteudo
+	width: 960px
+	height: auto
+	float: left
+	margin-bottom: 50px
+	background: #fff
+	border-radius: 10px
+	padding: 20px 10px 30px 10px
+
+	.box-categorias
+		width: 100%
+		height: 45px
+		float: left
+
+		.texto-destaque
+			width: auto
+			max-width: 320px
+			font-family: 'quicksandregular'
+			font-size: 19px
+			text-transform: uppercase
+			line-height: 22px
+			color: #00679d
+			float: left
+			margin: -8px 0 0 0
+
+			span
+				color: #013651
+				font-family: 'quicksandbold'
+
+		.categorias
+			width: 626px
+			height: 35px
+			position: absolute
+			z-index: 9999
+			background: $azul
+			border-radius: 10px
+			margin: 0 0 0 332px
+			//background: url("../../imagens/bg-categorias.png") no-repeat
+
+			li
+				list-style: none
+				float: left
+				font-size: 19px
+				color: #fff
+				font-family: arial
+				margin: 8px 0 0 0
+				border-left: 1px solid #02293c
+				padding: 0 17px 0 17px
+				cursor: pointer
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+				transition: 0.3s
+
+				ul
+					width: auto
+					margin: 3.5px 0 0 -41px
+					position: absolute
+					ul
+						width: 940px
+						height: 110px
+						border: 1px solid $azul-com-transparencia
+						border-top: 0
+						margin-left: -842px
+
+						.categoria-bloco-1
+							width: 180px
+							height: auto
+							border: 0
+							border-right: 1px solid $azul-com-transparencia
+							margin: 15px 0 0 0
+						
+							li
+								color: $azul
+								padding: 0 25px 0 0
+							li:hover
+								border-radius: 0
+								color: $azulbb
+						.categoria-bloco-2
+							width: 180px
+							height: auto
+							border: 0
+							border-right: 1px solid $azul-com-transparencia
+							margin: 15px 0 0 200px
+							li
+								color: $azul
+								padding: 0 25px 0 0
+							li:hover
+								border-radius: 0
+								color: $azulbb
+						.categoria-bloco-3
+							width: 180px
+							height: auto
+							border: 0
+							border-right: 1px solid $azul-com-transparencia
+							margin: 15px 0 0 400px
+							li
+								color: $azul
+								padding: 0 25px 0 0
+							li:hover
+								border-radius: 0
+								color: $azulbb
+						.categoria-bloco-4
+							width: 180px
+							height: auto
+							border: 0
+							border-right: 1px solid $azul-com-transparencia
+							margin: 15px 0 0 600px
+							li
+								color: $azul
+								padding: 0 25px 0 0
+							li:hover
+								border-radius: 0
+								color: $azulbb
+						.categoria-bloco-5
+							width: 180px
+							height: auto
+							border: 0
+							margin: 15px 0 0 800px
+							li
+								color: $azul
+								padding: 0 25px 0 0
+							li:hover
+								border-radius: 0
+								color: $azulbb
+
+			li:hover
+				//background: #fff
+				//border-radius: 10px
+				color: #90e81d
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+				transition: 0.3s
+			.categoria-ativa
+				background: #fff
+				border-radius: 10px
+				color: $azul
+				-webkit-transition: 0.3s
+				-moz-transition: 0.3s
+				-o-transition: 0.3s
+				transition: 0.3s
+				
+.espaco
+	width: 100%
+	height: auto
+	float: left
+	margin-top: 50px
